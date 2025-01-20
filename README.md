@@ -33,3 +33,9 @@ This project demonstrates the use of dynamic content rendering, event handling, 
 
    ```bash
    git clone https://github.com/yourusername/dynamic-form-generator.git
+
+---
+
+## License
+
+© Adam Burmuzoski. All rights reserved.
