@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'AgeoRegular';
+    src: url(https://cdn.glitch.global/5992cd3c-974e-4bde-965e-fc6cec2dcd36/Ageo-Regular.ttf?v=1686702995720);
+  }
+      
+      .container {
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .form-container {
+          border: 1px solid black;
+          margin: 10px;
+          padding: 10px;
+          font-family: 'AgeoRegular', Arial, Helvetica, sans-serif;
+      }
+      .form-container.table-container {
+          max-width: 100%;
+          transform: scale(1.097);
+          transform-origin: top left; /* Optional, this controls the point from which the scaling happens */
+
+      }
+      h1 {
+          color: rgb(255, 111, 0);
+          font-size: 190%;
+          font-family: 'AgeoRegular', Arial, Helvetica, sans-serif;
+          padding: 10px;
+          text-align: center;
+      }
+      h2 {
+        color: rgb(255, 111, 0);
+        font-size: 130%;
+        font-family: 'AgeoRegular', Arial, Helvetica, sans-serif;
+        padding: 5px;
+        text-align: center;
+    }
+      .form-container h3 {
+          color: rgb(255, 111, 0);
+          float: left;
+          font-size: 150%;
+          padding-bottom: 10px;
+      }
+      .form-container .form-field {
+          margin-bottom: 10px;
+      }
+      .form-container .form-field label {
+          display: block;
+      }
+      .add-row-button, .delete-row-button {
+          font-family: 'AgeoRegular', Arial, Helvetica, sans-serif;
+          float: right;
+          margin-top: 15px;
+          margin-right: 10px;
+      }
+      select, input[type="date"], textarea {
+      font-family: 'AgeoRegular',Arial, sans-serif;  /* Choose your desired font */
+      color: #333;  /* Choose your desired font color */
+      }
+
+      .clear {
+          clear: both;
+      }
+      table {
+      border-collapse: collapse; /* Ensures that the borders between cells connect */
+      }
+      td {
+      border: 1px solid black; /* Adds a border to each table cell and header cell */
+      padding: 5px; /* Adds some padding inside each cell */
+      }
+      th {
+      border: 1px solid black; /* Adds a border to each table cell and header cell */
+      padding: 5px; /* Adds some padding inside each cell */
+      background-color: rgba(255, 111, 0, 0.69);
+      }
+      .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-container h3 {
+  margin: 0;
+  flex-grow: 1;
+}
+.header-container button {
+  margin: 5px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#jsonTextarea {
+    width: 93%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: monospace;
+}
+
+#jsonOutput {
+    margin-top: 20px;
+}
+
+pre {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
